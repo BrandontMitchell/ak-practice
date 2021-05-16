@@ -1,0 +1,25 @@
+{
+  "name": "ak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandontMitchell/ak-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandontMitchell/ak-practice/issues"
+  },
+  "homepage": "https://github.com/BrandontMitchell/ak-practice#readme",
+  "dependencies": {
+    "cloudscraper": "^4.6.0",
+    "lodash": "^4.17.21",
+    "request-promise": "^4.2.6",
+    "user-agents": "^1.0.654"
+  }
+}

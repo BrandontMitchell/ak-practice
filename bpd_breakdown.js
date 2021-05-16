@@ -184,11 +184,11 @@ bpd: function () {
             var j = C[1];
             void 0 !== bmak.mn_r[j] && (B = bmak.mn_r[j])
         }
-        if (void 0 !== C[2]) { // wont enter if current challenges are empty
+        if (void 0 !== C[2]) {
             var A = C[2];
             void 0 !== bmak.mn_r[A] && (x = bmak.mn_r[A])
         }
-        if (void 0 !== C[3]) { // wont enter if current challenges are empty
+        if (void 0 !== C[3]) { 
             var L = C[3];
             void 0 !== bmak.mn_r[L] && (M = bmak.mn_r[L])
         }
@@ -254,9 +254,7 @@ bpd: function () {
            P +                  // used in second concat
            '-1,2,-94,-129,' + 
            E +                  // empty string?
-           '-1,2,-94,-121,',
-            
-        bmak.sd_debug(',s1:' + bmak.sensor_data.slice(0, 10)) // whats this?
+           '-1,2,-94,-121,'
     } 
     // catch (t) {
     //     var T = '';
